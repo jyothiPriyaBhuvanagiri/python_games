@@ -31,3 +31,28 @@ print(account.check_the_balance())
 
 print(account.deposit(500))
 print(account.withdraw(300))
+
+
+#############################################################
+
+class Person:
+
+    def __init__(self, name):
+        self.__name = name
+
+    def set(self, name):
+        if isinstance(name, str):
+            self.__name = name
+
+        else:
+            return f'name is not defined'
+
+    def get(self, name):
+        return self.__name
+
+
+person = Person("jjoe")
+
+print(person.get("hjt"))
+print(person.set("mad"))
+
