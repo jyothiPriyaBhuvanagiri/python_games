@@ -3,12 +3,12 @@ import logging
 from tb_rest_client.rest_client_ce import *
 from tb_rest_client.rest import ApiException
 
-url = 'http://134.109.4.9:8080'
+url = ' '
 
-username = "tenant@thingsboard.org"
-password = "tenant43"
+username = " "
+password = " "
 
-data_file = "dev_data_test2.json"
+data_file = " "
 
 with open(data_file, 'r') as file:
     data = json.load(file)
